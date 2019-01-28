@@ -1,0 +1,30 @@
+git init
+git status
+
+---3 PASOS PARA PUBLICAR---
+git add .				// declarar
+git commit -m "mensaje"			// asignar
+git push -u origin master		// publicar
+
+--BRANCH--
+git branch			// lista las ramas creadas
+git branch -a			// lista las ramas y tambien ramas ocultas
+git branch unaRama		// creacion de una rama
+git branch -h			// muestra una serie de comandos que se pueden aplicar
+git checkout -b otraRama	// crea otra rama y se cambia a ella
+git checkout ramita		// hace switch a otra rama
+
+--RUTA DE ORIGEN--
+git remote add origin https://github.com/johannhitnix/pruebaGit.git	
+
+---MERGE---
+git merge RAMA_FUENTE		//se hace un merge especificando la rama origen
+
+
+git pull origin master			// con pull se trae el contenido de otras ramas
+git reset .				
+
+
+
+
+
